@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(90deg, #232242, #393646);
+    padding: 0px;
+    margin: 20px 0px;
+    overflow-x: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Optional: adjust alignment */
+  }
+
+  .box {
+    width: 350px;
+    margin: 10px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0px;
+    border-radius: 7px;
+    box-shadow: 0 10px 25px black;
+  }
+  .box img {
+    max-width: 500px;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    border-radius: 2px;
+  }
+
+  .title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+
+  .location {
+    margin-top: 10px;
+  }
